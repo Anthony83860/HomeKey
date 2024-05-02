@@ -10,7 +10,7 @@
 <body>
     <header class="container1440">
         <a href="/index.html">
-            <img src="/img/logo.png" alt="Logo" width="180px" height="76.73px">
+            <img src="/img/logo.png" alt="Logo" width="180" height="76">
         </a>
         <nav>
             <ul>
@@ -23,10 +23,9 @@
         <section class="container1440">
             <h1>Find dream accommodation for your vacation</h1>
             <p>The sea, nature or in the city</p>
-
             <form action="#">
-                <label id="iconeRouge" for="#"><i class="fa-solid fa-location-dot"></i></label>
-                <input type="text" value="Madrid,Spain">
+                <label id="iconeRouge"><i class="fa-solid fa-location-dot"></i></label>
+                <input type="text" placeholder="Madrid,Spain">
                 <input type="submit" value="Search">
             </form>
             <div id="boutonFiltre">
@@ -92,7 +91,7 @@
                 </article>
                 <article class="shadow">
                     <a href="#" class="hoverGris">
-                        <img src="/img/Gran-Vía.jpg" alt="Gran Via">
+                        <img src="img/Gran-Vía.jpg" alt="Gran Via">
                         <h3>Gran Via</h3>
                         <p>Stay from $68/night</p>
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
@@ -117,7 +116,7 @@
                         </a>
                         <a href="#" class="hoverGris">
                             <article class="popular shadow">
-                            <img src="/img/Gran-Vía.jpg" alt="Gran Via">
+                            <img src="img/Gran-Vía.jpg" alt="Gran Via">
                             <div>
                                 <h3>Gran Via</h3>
                                 <p>Stay from $68/night</p>
@@ -138,36 +137,38 @@
                 
             </div>
         </section>
-        <h2 class="container1440">Discover all activities around here</h2>
-        <section id="activities" class="container1440">
-            <article class="shadow hoverGris">
-                <a href="#">
-                    <img src="/img/Water.jpg" alt="Water">
-                    <h3>Water Activities</h3>
-                </a>
-            </article>
-            <article class="shadow hoverGris">
-                <a href="#">
-                    <img src="/img/mountain.jpg" alt="Moutains">
-                    <h3>Mountains Activities</h3>
-                </a>
-            </article>
-            <article class="shadow hoverGris">
-                <a href="#">
-                    <img src="/img/Nature.jpg" alt="Nature">
-                    <h3>Nature Activities</h3>
-                </a>
-            </article>
-            <article class="shadow hoverGris">
-                <a href="#">
-                    <img src="/img/City.jpg" alt="City">
-                    <h3>City Activities</h3>
-                </a>
-            </article>
+        <section>
+            <h2 class="container1440">Discover all activities around here</h2>
+            <div id="activities" class="container1440">
+                <article class="shadow hoverGris">
+                    <a href="#">
+                        <img src="/img/Water.jpg" alt="Water">
+                        <h3>Water Activities</h3>
+                    </a>
+                </article>
+                <article class="shadow hoverGris">
+                    <a href="#">
+                        <img src="/img/mountain.jpg" alt="Moutains">
+                        <h3>Mountains Activities</h3>
+                    </a>
+                </article>
+                <article class="shadow hoverGris">
+                    <a href="#">
+                        <img src="/img/Nature.jpg" alt="Nature">
+                        <h3>Nature Activities</h3>
+                    </a>
+                </article>
+                <article class="shadow hoverGris">
+                    <a href="#">
+                        <img src="/img/City.jpg" alt="City">
+                        <h3>City Activities</h3>
+                    </a>
+                </article>
+            </div>
         </section>
     </main>
     <footer>
-        <section id="footerGris" class="container1440 fondGris">
+        <div id="footerGris" class="container1440 fondGris">
             <article>
                 <h2>About</h2>
                 <ul>
@@ -190,7 +191,7 @@
                     <li><a href="#">Contact-us</a></li>
                 </ul>
             </article>
-        </section>
+        </div>
     <p id="copyright">Design based on Booki website - OpenClassrooms</p>
     </footer>
 </body>
