@@ -250,13 +250,10 @@ main > section > p:nth-child(5) > i{
 /* section grille */
 #test {
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-
-    margin-bottom: 30px;
+    gap:40px;
 }
 #test2 {
-    padding: 20px 10px 20px 10px;
+    flex: 2;
 }
 #test2 h2 {
     padding-left: 30px;
@@ -264,16 +261,14 @@ main > section > p:nth-child(5) > i{
     font-size: 18px;
 }
 #container1 {
-    max-width: 940px;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-between;
+    gap: 30px;
     padding: 30px;
 }
 
 #container1 img {
-    width: 270px;
+    width: 100%;
     height: 180px;
     border-radius: 12px 12px 0 0;
 }
@@ -286,6 +281,7 @@ main > section > p:nth-child(5) > i{
     border-radius: 12px;
     position: relative;
     padding: 5px;
+    flex: 1 0 30%;
 }
 
 #test2 > a > h2:hover{
@@ -329,7 +325,7 @@ main > section > p:nth-child(5) > i{
     background-color: var(--white);
     border-radius: 12px;
     position: relative;
-    padding: 10px;
+    padding: 4px;
 }
 
 
@@ -354,9 +350,10 @@ main > section > p:nth-child(5) > i{
     padding-bottom: 10px;
     text-align: center;
     margin-bottom: 30px;
+    flex: 4;
 }
 #activities img{
-    width: 322px;
+    width: 100%;
     height: 431px;
     border-radius: 12px 12px 0 0;
     padding-bottom: 10px;
@@ -384,6 +381,18 @@ main > section > p:nth-child(5) > i{
     }
     #activities{
         justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #activities article{
+    background-color: var(--white);
+    border-radius: 12px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    flex: 1 0 30%;
     }
     #container1{
         gap:20px;
@@ -391,7 +400,6 @@ main > section > p:nth-child(5) > i{
     #container2 img {
         width: 40%;
     }
-
 }
 
 @media screen and (max-width: 768px){
@@ -428,6 +436,7 @@ main > section > p:nth-child(5) > i{
     }
     #activities{
         justify-content: center;
+        flex-direction: column;
     }
     #footerGris{
         flex-direction: column;
