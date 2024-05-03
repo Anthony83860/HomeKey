@@ -295,13 +295,14 @@ main > section > p:nth-child(5) > i{
 #container2 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     padding: 30px;
     border-radius: 12px 0 0 12px;
+    
 }
 #container2 img{
-    width: 78px;
-    height: 155px;
+    width: 80px;
+    height: 170px;
     object-fit: cover;
     border-radius: 12px 0 0 12px;
 }
@@ -312,11 +313,11 @@ main > section > p:nth-child(5) > i{
     background-color: var(--white);
     border-radius: 12px;
     position: relative;
-    padding: 5px;
+    padding: 10px;
 }
 
 #container2  article  div  h3 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 10px;
 }
 
