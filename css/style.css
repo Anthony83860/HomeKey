@@ -401,6 +401,22 @@ main > section > p:nth-child(5) > i{
         gap: 20px;
         text-align: center;
     }
+    nav a{
+        border-bottom:1px solid transparent ;
+    
+    }
+    header li{
+        padding-top: 0px;
+        padding-bottom :40px;
+    }
+    nav a:hover {
+        color: var(--red);
+        transition: all 0.4s;
+        border-bottom: #f60303 1px solid;
+        padding-bottom: 49px;
+        padding-top: 0px;
+        border-top: none ;
+    }
     header ul{
         display: flex;
         justify-content: center;
