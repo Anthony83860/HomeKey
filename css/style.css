@@ -63,6 +63,10 @@ a:hover{
     background-color: var(--lightgrey);
     border-radius: 12px;
 }
+.notation i{
+    color: var(--red);
+    
+}
 .recommended::before{
     content: "Recommended";
     z-index: 1;
@@ -264,8 +268,8 @@ main > section > p:nth-child(5) > i{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    justify-content: center;
-    padding: 20px 10px 20px 10px;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 #container1 img {
@@ -289,6 +293,12 @@ main > section > p:nth-child(5) > i{
     text-decoration: none;
     transition: all 0.2s;
 }
+
+#loadmore{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 30px;
+}
 #container1 i, #container2 i{
     color: var(--red);
 }
@@ -306,9 +316,15 @@ main > section > p:nth-child(5) > i{
     object-fit: cover;
     border-radius: 12px 0 0 12px;
 }
+.divColonne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 #container2 article {
     display: flex;
+    flex: 1 0 29%;
     gap: 10px;
     background-color: var(--white);
     border-radius: 12px;
@@ -316,10 +332,6 @@ main > section > p:nth-child(5) > i{
     padding: 10px;
 }
 
-#container2  article  div  h3 {
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
 
 #container2  article  div  p {
     padding-bottom: 15px;
@@ -348,6 +360,7 @@ main > section > p:nth-child(5) > i{
     height: 431px;
     border-radius: 12px 12px 0 0;
     padding-bottom: 10px;
+    object-fit: cover;
 }
 
 #activities h3 {
